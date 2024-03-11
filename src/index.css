@@ -1,0 +1,157 @@
+
+nav{
+    font-family: sans-serif;
+    
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid rgb(221, 221, 221);
+}
+.btn{
+    border: none;
+    height: 35px;
+    background-color:rgb(198, 198, 198);
+    border-radius: 30px;
+    display: flex;
+    align-items:center ;
+}
+.btn button{
+    height: 35px;
+    border: none;
+    background-color: transparent;
+}
+.btn input{
+    border: none;
+    outline: none;
+    background-color:transparent ;
+    width: 400px;
+}
+.text{
+    display: flex;
+    font-size: 14px;
+    gap:15px;
+}
+.logo{
+    display: flex; 
+    gap: 20px; 
+    align-items: center; 
+}
+.logo button{
+    height: 30px;
+    background-color: transparent;
+    border: 1px solid grey;
+    color:grey;
+    cursor: pointer;
+}
+.logo button:hover{
+    color: black;
+    border: 1px solid black;
+}
+.logo img{
+    height: 35px;
+    width: 35px;
+    border-radius: 20px;
+}
+.text1{
+    font-family: sans-serif;
+    margin-top: 130px;
+}
+.text1i{
+    display: flex;
+    gap:80px;
+    align-items: center;
+}
+.text1i h1{
+    font-size: 13px;
+    font-weight: 100;
+    background-color: rgb(233, 233, 233);
+    width: 220px;
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+}
+.btn1{
+    border: none;
+    height: 45px;
+    background-color:rgb(198, 198, 198);
+    border-radius: 10px;
+    display: flex;
+    align-items:center ;
+    width: 550px;
+
+}
+.btn1 button{
+    border: none;
+    background-color: transparent;
+}
+.btn1 input{
+    border: none;
+    outline: none;
+    background-color:transparent ;
+    width: 500px;
+
+}
+.main{
+    border: 1px solid rgb(214, 214, 214);
+    width: 240px;
+    height: 300px;
+    border-radius: 10px;
+    padding: 20px ;
+}
+.list{
+    font-family: sans-serif;
+    display: flex;
+    font-size: 13px;
+    gap: 130px;
+}
+.list1{
+    display: flex;
+    gap: 10px;
+}
+.list1 img{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+.text2{
+    
+}
+.text2 h1{
+    font-weight: 100;
+    font-size: 13px;
+    font-family: sans-serif;
+}
+.text2 p{
+    font-weight: 100;
+    font-size: 11px;
+    color: grey;
+    font-family: sans-serif;
+}
+.image img{
+    width: 285px;
+    height: 340px;
+    border-radius: 10px;
+}
+.main1{
+    display: flex;
+    gap:20px;
+}
+.grand{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+}
+.images1{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+
+}
+.images1 img{
+   width: 100%;
+   height: 100%;
+    
+}
